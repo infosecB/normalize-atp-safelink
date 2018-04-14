@@ -9,8 +9,8 @@ def normalize_atpsafelink(safelink_url):
     return safelink_url
 
 
-def main():
-    print normalize_atpsafelink(args.url)
+def main(url):
+    print normalize_atpsafelink(url)
 
 
 if __name__ == "__main__":
